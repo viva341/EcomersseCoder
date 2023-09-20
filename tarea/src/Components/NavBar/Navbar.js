@@ -1,32 +1,30 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Cart from './CartWiget.js'; 
+import Cart from '../CartWidget/CartWiget'; // Corrige la ruta de importación
+import { NavLink } from 'react-router-dom'; // Importa NavLink para las rutas
 
 function Navbar() {
   const [cartItems, setCartItems] = useState([]);
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a className="navbar-brand" href="#">EliteFitness</a>
+      <NavLink className="navbar-brand" to="/">EliteFitness</NavLink> 
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
-          <li className="nav-item active">
-            <a className="nav-link" href="#">Inicio</a>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/">Inicio</NavLink> 
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Planes de Entrenamiento</a>
+            <NavLink className="nav-link" to="/category/Creatinas">Creatinas</NavLink> 
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Suplementación</a>
+            <NavLink className="nav-link" to="/category/Proteinas">Proteínas</NavLink> 
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Nutrición</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">Contacto</a>
+            <NavLink className="nav-link" to="/category/Preentrenos">Preentrenos</NavLink> 
           </li>
         </ul>
       </div>

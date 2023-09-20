@@ -1,0 +1,8 @@
+[
+    {"id":1, "nombre":"Whey Protein Gold Standar", "descripcion":"Whey Protein Gold Standar- Grafito (Graphite)", "imagen":"https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/opn/opn02412/y/21.jpg", "precio":324.000, "stock":10, "categoria":"Proteinas"},
+    {"id":3, "nombre":"Iso 100", "descripcion":"Proteina Iso 100", "imagen":"https://i.linio.com/p/eb33e7a0532feddc06ffbbaa87286e68-product.webp", "precio":3000, "stock":5, "categoria":"Proteinas" },
+    {"id":4, "nombre":"Creatine Power", "descripcion":"Creatina power", "imagen":"https://http2.mlstatic.com/D_NQ_NP_932888-MCO41162729382_032020-O.webp", "precio":2000, "stock":4, "categoria":"Creatinas"},
+    {"id":5, "nombre":"CreaStack", "descripcion":"Creatina Creastack", "imagen":"https://nutramerican.com/api_MegaplexStar/assets/productos3dwebp/102060/big.webp", "precio":70000, "stock":7, "categoria":"Creatinas"},
+    {"id":7, "nombre":"Intenze", "descripcion":"Preentreno Intenze", "imagen":"https://i.linio.com/p/7d961f1a5b851daa3dff7129359f75bd-product.webp", "precio":150000, "stock":5, "categoria":"Preentrenos"},
+    {"id":8, "nombre":"C4", "descripcion":"Preentreno", "imagen":"https://fitplus.com.co/wp-content/uploads/2021/06/c4-60-ser-600x635.jpg.webp", "precio":142000, "stock":2, "categoria":"Preentrenos"}
+    ]
